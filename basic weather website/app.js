@@ -9,9 +9,9 @@ const rüzgar = document.querySelector("#ruzgar")
 const konum=document.getElementById("şehir")
 const buton=document.getElementById("get")
 
-const api = "413599eb33e96aad87e49e9f03891ac5"
+const api = "<your api_key>"
 
-const country = "TR"
+const country = "<your country>"
 
 function getCoordinates(apiKey, cityName, countryCode) {
     fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName},${countryCode}&appid=${apiKey}`)
@@ -57,13 +57,7 @@ function displayWeather(data) {
     nem.innerHTML=`Nem: ${humidity}%`
     rüzgar.innerHTML=`Rüzgar Hızı: ${windSpeed} m/s`
     
-    // if (description=="açık") {
-    //     const containr=document.querySelector(".container")
-    //     console.log("başarılı")
-    //     console.log(containr)
-        
-         
-    // }
+ 
 }
 buton.addEventListener("click",()=>{
     const city = konum.value.toUpperCase()    
