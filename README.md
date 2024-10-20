@@ -1,6 +1,12 @@
 ## Weather App 🌦️
 - A simple website that fetches the current weather for a specified city using a weather API.
 
+
+![Ekran görüntüsü 2024-10-20 125438](https://github.com/user-attachments/assets/44413d58-cc18-4b0b-9778-c2f162e08244)
+
+
+
+
 ## Features
 - Fetches weather data for a city using a weather API.
 - Displays current temperature, weather conditions (sunny, rainy, etc.), and other details like humidity and wind speed.
